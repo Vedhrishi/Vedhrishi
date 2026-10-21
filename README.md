@@ -96,7 +96,7 @@ A multilingual admission assistant built for the Smart India Hackathon with Reac
 
 </details>
 
-**Also:** completed the NISM Series-VIII (Equity Derivatives) study program in 2023, and took part in Technovanza 4.0 and 5.0, a national-level tech event run alongside the Smart India Hackathon. The finance coursework underpins the content in the RISHI series.
+**Also:** completed the NISM Series-VIII (Equity Derivatives) study program in 2023, and took part in Technovanza 4.0 and 5.0, a national-level tech event run alongside the Smart India Hackathon. Outside code: Model United Nations (High Commendation and Special Mention awards). The finance coursework underpins the content in the RISHI series.
 
 ## Engineering principles
 
@@ -110,6 +110,7 @@ A multilingual admission assistant built for the Smart India Hackathon with Reac
 Open to software engineering roles and collaborations.
 
 - **LinkedIn:** [linkedin.com/in/vedhrishi-pasupuleti-6b6856408](https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/)
+- **Email:** [vedhrishi54@gmail.com](mailto:vedhrishi54@gmail.com)
 - **GitHub:** you are here; the pinned repositories are my best work
 - **Projects:** [RISHI website](https://rishi-indian-stocks-explained.vercel.app)
 
