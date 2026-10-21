@@ -4,12 +4,12 @@
 
 <p align="center">
   <a href="https://github.com/Vedhrishi/Vedhrishi">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=7EE7FF&center=true&vCenter=true&width=760&lines=Software+developer+from+Hyderabad;I+build+computer+vision+that+runs+in+the+browser;Security+tools%3A+face+auth+%2B+AES-256-GCM+vaults;Automation+pipelines+that+publish+across+3+platforms;Open+to+software+engineering+roles" alt="Typing animation: software developer, computer vision, security, automation, open to roles">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=7EE7FF&center=true&vCenter=true&width=760&lines=B.Tech+CSE+%28final+year%29+%C2%B7+MBA+in+Business+Analytics;I+turn+data+and+automation+into+business+decisions;Built+and+shipped+7+live+projects+end+to+end;Open+to+analytics+and+business+internships" alt="Typing animation: B.Tech CSE and MBA Business Analytics, open to internships">
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open%20to-Software%20Engineering%20Roles-2ea44f?style=for-the-badge" alt="Open to software engineering roles">
+  <img src="https://img.shields.io/badge/Open%20to-Internships-2ea44f?style=for-the-badge" alt="Open to internships in business analytics">
   <a href="https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/"><img src="https://img.shields.io/badge/LinkedIn-Vedhrishi%20Pasupuleti-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
   <img src="https://img.shields.io/badge/Based%20in-Hyderabad%2C%20India-0a66c2?style=for-the-badge" alt="Hyderabad, India">
   <img src="https://komarev.com/ghpvc/?username=Vedhrishi&label=Profile%20views&color=7c3aed&style=for-the-badge" alt="Profile views">
@@ -17,7 +17,9 @@
 
 ---
 
-**Software engineer | Computer vision, security and automation**
+**B.Tech CSE (final year) | MBA in Business Analytics | Seeking internships in analytics and business roles**
+
+I combine a computer-science foundation with business analytics: I can build the data pipeline, the model and the dashboard, then explain what it means for a decision. I am looking for internships where I can learn from a team and contribute from day one.
 
 I design, build and ship complete systems: the model or pipeline, the application around it, the deployment, and the tests and documentation that keep it maintainable. I care about the parts that make software trustworthy in production: privacy by default, secure data handling, measured performance and automated checks.
 
@@ -77,7 +79,7 @@ A multilingual admission assistant built for the Smart India Hackathon with Reac
 
 | Credential | Issuer | Completed | Verify |
 |---|---|---|---|
-| **Google AI Professional Certificate** (7 courses) | Google via Coursera | Jun 2026 | [Verify](https://coursera.org/verify/professional-cert/KE2UAD30CICU) |
+| **Google AI Specialization** (7 courses) | Google via Coursera | Jun 2026 | [Verify](https://coursera.org/verify/professional-cert/KE2UAD30CICU) |
 | Financial Markets | Yale University via Coursera | May 2026 | [Verify](https://coursera.org/verify/BKT2CQFSGG1D) |
 | Foundations of Project Management | Google via Coursera | Jul 2026 | [Verify](https://coursera.org/verify/FU65M9YKDMUZ) |
 | Generative AI: Prompt Engineering Basics | Coursera | | [Course](https://www.coursera.org/learn/generative-ai-prompt-engineering-for-everyone) |
@@ -107,7 +109,7 @@ A multilingual admission assistant built for the Smart India Hackathon with Reac
 
 ## Get in touch
 
-Open to software engineering roles and collaborations.
+Looking for internships in business analytics, data analysis and strategy. Happy to talk about my projects or a short trial task.
 
 - **LinkedIn:** [linkedin.com/in/vedhrishi-pasupuleti-6b6856408](https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/)
 - **Email:** [vedhrishi54@gmail.com](mailto:vedhrishi54@gmail.com)
