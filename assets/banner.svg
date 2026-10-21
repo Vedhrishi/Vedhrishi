@@ -1,57 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-label="Pasupuleti Vedh Rishi, software developer: computer vision, security, automation">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/><stop offset="0.55" stop-color="#14123a"/><stop offset="1" stop-color="#0a2540"/>
-    </linearGradient>
-    <linearGradient id="title" x1="0" x2="1">
-      <stop offset="0" stop-color="#7ee7ff"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#ffc42e"/>
-      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1;2;1" dur="8s" repeatCount="indefinite"/>
-    </linearGradient>
-    <linearGradient id="wave1" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.35"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="wave2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.35"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
-    </pattern>
-    <clipPath id="typeclip"><rect x="250" y="0" width="0" height="320">
-      <animate attributeName="width" values="0;700;700;0" keyTimes="0;0.45;0.85;1" dur="9s" begin="1.2s" repeatCount="indefinite"/>
-    </rect></clipPath>
-  </defs>
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#grid)">
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="40 40" dur="6s" repeatCount="indefinite"/>
-  </rect>
-  <g>
-    <path fill="url(#wave1)" d="M0 220 C200 170 400 270 600 220 C800 170 1000 270 1200 220 C1400 170 1600 270 1800 220 V320 H0Z">
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="14s" repeatCount="indefinite"/>
-    </path>
-    <path fill="url(#wave2)" d="M0 250 C150 215 450 285 600 250 C750 215 1050 285 1200 250 C1350 215 1650 285 1800 250 V320 H0Z">
-      <animateTransform attributeName="transform" type="translate" from="-1200 0" to="0 0" dur="10s" repeatCount="indefinite"/>
-    </path>
-  </g>
-  <g fill="#7ee7ff">
-    <circle cx="140" cy="70" r="3"><animate attributeName="cy" values="70;40;70" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/></circle>
-    <circle cx="980" cy="60" r="4" fill="#ffc42e"><animate attributeName="cy" values="60;95;60" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="1100" cy="150" r="3" fill="#a78bfa"><animate attributeName="cy" values="150;120;150" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;0.9;0.2" dur="7s" repeatCount="indefinite"/></circle>
-    <circle cx="60" cy="190" r="2.5"><animate attributeName="cy" values="190;160;190" dur="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" repeatCount="indefinite"/></circle>
-    <circle cx="820" cy="40" r="2.5" fill="#a78bfa"><animate attributeName="cy" values="40;70;40" dur="5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="5.5s" repeatCount="indefinite"/></circle>
-  </g>
-  <g font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" text-anchor="middle">
-    <text x="600" y="150" font-size="60" font-weight="800" fill="url(#title)" opacity="0">
-      Pasupuleti Vedh Rishi
-      <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
-      <animate attributeName="y" from="175" to="150" dur="1.2s" fill="freeze"/>
-    </text>
-    <g clip-path="url(#typeclip)">
-      <text x="600" y="205" font-size="25" fill="#cbd5e1" letter-spacing="1">Computer Vision  ·  Security  ·  Automation  ·  Full-stack</text>
-    </g>
-    <rect x="250" y="188" width="3" height="26" fill="#7ee7ff">
-      <animate attributeName="x" values="250;250;915;915;250" keyTimes="0;0.02;0.45;0.85;1" dur="9s" begin="1.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" role="img" aria-label="Pasupuleti Vedh Rishi, final-year B.Tech CSE, data and analytics internship seeker">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#14305a"/></linearGradient>
+<linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#4cc2ff" stop-opacity=".0"/><stop offset=".5" stop-color="#4cc2ff" stop-opacity=".35"/><stop offset="1" stop-color="#7c5cff" stop-opacity=".0"/></linearGradient>
+<clipPath id="r"><rect width="1000" height="260" rx="22"/></clipPath></defs>
+<g clip-path="url(#r)"><rect width="1000" height="260" fill="url(#g)"/>
+<path fill="url(#w)" d="M0 200 C 150 150 300 250 500 200 S 850 150 1000 200 V260 H0Z"><animateTransform attributeName="transform" type="translate" values="-60 0;60 0;-60 0" dur="9s" repeatCount="indefinite"/></path>
+<path fill="url(#w)" opacity=".7" d="M0 220 C 200 180 350 260 520 215 S 860 175 1000 225 V260 H0Z"><animateTransform attributeName="transform" type="translate" values="50 0;-50 0;50 0" dur="12s" repeatCount="indefinite"/></path>
+<circle cx="90" cy="70" r="3" fill="#4cc2ff" opacity=".5"><animate attributeName="cy" values="70;40;70" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.7;.15" dur="5s" repeatCount="indefinite"/></circle><circle cx="220" cy="190" r="2" fill="#4cc2ff" opacity=".5"><animate attributeName="cy" values="190;160;190" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.7;.15" dur="6s" repeatCount="indefinite"/></circle><circle cx="780" cy="60" r="3" fill="#4cc2ff" opacity=".5"><animate attributeName="cy" values="60;30;60" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.7;.15" dur="7s" repeatCount="indefinite"/></circle><circle cx="900" cy="150" r="2" fill="#4cc2ff" opacity=".5"><animate attributeName="cy" values="150;120;150" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.7;.15" dur="5s" repeatCount="indefinite"/></circle><circle cx="640" cy="30" r="2" fill="#4cc2ff" opacity=".5"><animate attributeName="cy" values="30;0;30" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.7;.15" dur="8s" repeatCount="indefinite"/></circle><circle cx="140" cy="130" r="2" fill="#4cc2ff" opacity=".5"><animate attributeName="cy" values="130;100;130" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.7;.15" dur="6s" repeatCount="indefinite"/></circle>
+<text x="500" y="112" text-anchor="middle" fill="#fff" font-size="48" font-weight="700" letter-spacing="-1" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif">Pasupuleti Vedh Rishi
+<animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/></text>
+<text x="500" y="168" text-anchor="middle" fill="#eaf0ff" font-size="26" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif" opacity="0">Final-year B.Tech CSE<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.22;0.28;1" dur="16s" begin="0s" repeatCount="indefinite"/></text><text x="500" y="168" text-anchor="middle" fill="#eaf0ff" font-size="26" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif" opacity="0">Data &amp; analytics internship seeker<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.22;0.28;1" dur="16s" begin="4s" repeatCount="indefinite"/></text><text x="500" y="168" text-anchor="middle" fill="#eaf0ff" font-size="26" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif" opacity="0">Pipelines · ML scoring · computer vision<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.22;0.28;1" dur="16s" begin="8s" repeatCount="indefinite"/></text><text x="500" y="168" text-anchor="middle" fill="#eaf0ff" font-size="26" font-family="'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif" opacity="0">6 live projects, all documented<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.22;0.28;1" dur="16s" begin="12s" repeatCount="indefinite"/></text></g></svg>

@@ -1,56 +1,103 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a66c2,100:7EE7FF&height=170&section=header&text=Pasupuleti%20Vedh%20Rishi&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Final-year%20B.Tech%20CSE%20%C2%B7%20Data%20%26%20Analytics%20Internship&descSize=16&descAlignY=60" alt="Pasupuleti Vedh Rishi, final-year B.Tech CSE, seeking a data and analytics internship" width="100%">
-</p>
+<p align="center"><img src="assets/banner.svg" alt="Pasupuleti Vedh Rishi, final-year B.Tech CSE, data and analytics internship seeker" width="100%"></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=0A66C2&center=true&vCenter=true&width=760&lines=Data+and+analytics+internship+seeker;Pipelines+%C2%B7+ML+scoring+%C2%B7+computer+vision;6+live+projects+with+demos+and+documentation;Google+AI+%2B+Yale+Financial+Markets+certified" alt="Typing animation: data and analytics internship seeker, pipelines, ML scoring, computer vision, 6 projects, certifications">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20to-Data%20%26%20Analytics%20Internships-2ea44f?style=for-the-badge" alt="Open to data and analytics internships">
+  <img src="https://img.shields.io/badge/OPEN%20TO-DATA%20%26%20ANALYTICS%20INTERNSHIPS-2ea44f?style=for-the-badge" alt="Open to data and analytics internships"><br>
   <a href="https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/"><img src="https://img.shields.io/badge/LinkedIn-Vedhrishi%20Pasupuleti-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <img src="https://img.shields.io/badge/Hyderabad%2C%20India-555?style=for-the-badge" alt="Hyderabad, India">
+  <a href="mailto:vedhrishi54@gmail.com"><img src="https://img.shields.io/badge/Email-vedhrishi54%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Hyderabad-India-555?style=for-the-badge" alt="Hyderabad, India">
 </p>
 
-**Final-year B.Tech, Computer Science and Engineering | Seeking a data and analytics internship**
-Hyderabad, India | [LinkedIn](https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/) | [vedhrishi54@gmail.com](mailto:vedhrishi54@gmail.com)
+## About me
 
-I turn problems into working, deployed data projects: I define the requirements, review and test the results, and ship with live demos and documentation. I am looking for an internship where I can work on real business data and learn from an analytics team.
+**Final-year B.Tech student, Computer Science and Engineering, CMR Technical Campus, Hyderabad.**
+Looking for a **data and analytics internship**.
 
-## What I bring
+I turn problems into working, deployed data projects: I define the requirements, review and test the results, and ship with live demos and documentation. I want an internship where I can work on real business data and learn from an analytics team.
 
-- **End-to-end delivery:** from problem statement to a deployed project, checked with tests and measurements.
-- **Data and automation projects:** a publishing pipeline with scheduling and status tracking, an ML risk-scoring app, and a computer-vision app.
-- **Verified learning in AI and finance:** Google AI Specialization (including AI for Data Analysis) and Yale Financial Markets, both verifiable below.
-- **Communication:** documented projects with live demos, and a public series that explains finance in plain language.
+## At a glance
+
+<p align="center"><img src="assets/stats.svg" alt="Projects, commits, live demos and languages across all repositories" width="100%"></p>
 
 ## Projects
 
-### [RISHI | Indian Stocks Explained](https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED) ([live](https://rishi-indian-stocks-explained.vercel.app))
-Financial-literacy video series for Indian retail investors: 100 episodes (200 short videos) on Instagram, YouTube and Facebook. Website on Vercel with Supabase (Postgres).
+Use the links under each card, or open **Project details** below for the full story of each one.
 
-### [RISHI Automation](https://github.com/Vedhrishi/RISHI-AUTOMATION)
-Pipeline for scheduling, captions and metadata across the platforms, with SQLite and a health-check script that compares several data sources.
+<table>
+<tr>
+<td width="50%" valign="top"><img src="assets/card-1.svg" alt="RISHI | Indian Stocks Explained" width="100%"><br>🔗 <a href="https://rishi-indian-stocks-explained.vercel.app">Live site</a> · <a href="https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED">Code</a></td>
+<td width="50%" valign="top"><img src="assets/card-2.svg" alt="RISHI Automation" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/RISHI-AUTOMATION">Code</a></td>
+</tr>
+<tr>
+<td valign="top"><img src="assets/card-3.svg" alt="IntelliTrap" width="100%"><br>🔗 <a href="https://intellitrap-batch-3.vercel.app">Live demo</a> · <a href="https://github.com/Vedhrishi/INTELLITRAP">Code</a></td>
+<td valign="top"><img src="assets/card-4.svg" alt="Plastic Decoder" width="100%"><br>🔗 <a href="https://plastic-decoder-project.vercel.app">Live demo</a> · <a href="https://github.com/Vedhrishi/AI-PLASTIC-SORTING-WEBSITE">Code</a></td>
+</tr>
+<tr>
+<td valign="top"><img src="assets/card-5.svg" alt="BioLock SSD" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/BIO-LOCK">Code</a></td>
+<td valign="top"><img src="assets/card-6.svg" alt="SIH Code Mavericks" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/SIH-CODE_MAVERICKS">Code</a></td>
+</tr>
+</table>
 
-### [INTELLITRAP](https://github.com/Vedhrishi/INTELLITRAP) ([live](https://intellitrap-batch-3.vercel.app))
-Secure cloud storage with a RandomForest risk-scoring layer that flags suspicious sessions. TypeScript, Vite, Supabase.
+### Project details
 
-### [Plastic Decoder](https://github.com/Vedhrishi/AI-PLASTIC-SORTING-WEBSITE) ([live](https://plastic-decoder-project.vercel.app))
-In-browser plastic resin identification using YOLOv8 and ResNet-18. Mobile Lighthouse: 100 SEO, 96 best practices.
+<details>
+<summary><b>RISHI | Indian Stocks Explained</b>: financial literacy for first-time Indian investors</summary>
 
-### [BioLock SSD](https://github.com/Vedhrishi/BIO-LOCK)
-Face-authenticated lock for external drives (Python, OpenCV, AES-256-GCM).
+- **Problem:** stock-market education for beginners is jargon-heavy and mostly English-only.
+- **What it is:** a series of 80-second animated episodes (100 planned, released twice daily) on Instagram, YouTube and Facebook, plus a website that gathers them.
+- **Data and tech:** episode metadata and schedules in Supabase (Postgres); static front end on Vercel; strict content-security policy and database row-level security.
+- **Rules I set:** education only, no stock tips, no return promises, clear disclaimers.
+- [Live site](https://rishi-indian-stocks-explained.vercel.app) · [Code](https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED)
+</details>
 
-### [SIH Code Mavericks](https://github.com/Vedhrishi/SIH-CODE_MAVERICKS)
-Multilingual admission assistant for the Smart India Hackathon (React, TypeScript).
+<details>
+<summary><b>RISHI Automation</b>: the publishing pipeline behind the series</summary>
 
-## Tools used in these projects
+- **Problem:** posting to three platforms on a schedule by hand does not scale.
+- **What it does:** schedules uploads, generates captions and metadata, tracks status in SQLite, and runs a health check that compares several data sources and flags mismatches.
+- **Tech:** Python, SQLite, YouTube, Facebook and Instagram APIs, Windows scheduled tasks.
+- [Code](https://github.com/Vedhrishi/RISHI-AUTOMATION)
+</details>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,js,react,vite,supabase,postgres,sqlite,sklearn,opencv,git,githubactions,vercel&perline=13" alt="Tools: Python, TypeScript, JavaScript, React, Vite, Supabase, Postgres, SQLite, scikit-learn, OpenCV, Git, GitHub Actions, Vercel">
-</p>
+<details>
+<summary><b>IntelliTrap</b>: secure cloud storage with risk scoring</summary>
 
-Python, TypeScript, JavaScript, React, Vite, Supabase (Postgres), SQLite, scikit-learn (RandomForest), YOLOv8, ResNet-18, OpenCV, FFmpeg, Git, GitHub Actions, Vercel.
+- **Problem:** stolen credentials let attackers browse a user's files unnoticed.
+- **What it does:** a RandomForest model scores each session; suspicious sessions are diverted to decoy data while an admin console shows the threat.
+- **Tech:** TypeScript, Vite, Supabase (Postgres, row-level security), scikit-learn.
+- [Live demo](https://intellitrap-batch-3.vercel.app) · [Code](https://github.com/Vedhrishi/INTELLITRAP)
+</details>
+
+<details>
+<summary><b>Plastic Decoder</b>: plastic resin identification in the browser</summary>
+
+- **Problem:** people cannot tell plastic types apart, so recyclable material gets contaminated.
+- **What it does:** identifies PET, HDPE, PP and PS from a photo and gives disposal guidance. YOLOv8 and ResNet-18 run on-device, so photos never leave the phone.
+- **Measured:** mobile Lighthouse 100 SEO and 96 best practices.
+- **Tech:** React, Vite, ONNX models, JavaScript.
+- [Live demo](https://plastic-decoder-project.vercel.app) · [Code](https://github.com/Vedhrishi/AI-PLASTIC-SORTING-WEBSITE)
+</details>
+
+<details>
+<summary><b>BioLock SSD</b>: face-authenticated drive lock</summary>
+
+- **Problem:** a lost USB drive means lost data.
+- **What it does:** unlocks only after presence, blink and head-turn checks plus a face match; the vault is encrypted with AES-256-GCM. Includes automated tests in CI.
+- **Tech:** Python, OpenCV, Tkinter, Windows desktop.
+- [Code](https://github.com/Vedhrishi/BIO-LOCK)
+</details>
+
+<details>
+<summary><b>SIH Code Mavericks</b>: multilingual admission assistant</summary>
+
+- **Problem:** college admission steps are confusing, especially across languages.
+- **What it does:** guides a student through language, quota, documents and a chatbot questionnaire to a final summary. Built for the Smart India Hackathon.
+- **Tech:** React, TypeScript, Vite, Tailwind CSS.
+- [Code](https://github.com/Vedhrishi/SIH-CODE_MAVERICKS)
+</details>
+
+## Tools used
+
+<p align="center"><img src="assets/skills.svg" alt="Tools used: Python, TypeScript, JavaScript, React, Vite, Supabase, Vercel, PostgreSQL, SQLite, scikit-learn, YOLOv8, ResNet-18, OpenCV, Git, GitHub Actions, FFmpeg" width="100%"></p>
 
 ## Certifications
 
@@ -66,6 +113,4 @@ Python, TypeScript, JavaScript, React, Vite, Supabase (Postgres), SQLite, scikit
 
 Open to data and analytics internships. Email [vedhrishi54@gmail.com](mailto:vedhrishi54@gmail.com) or message me on [LinkedIn](https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/).
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7EE7FF,100:0a66c2&height=90&section=footer" alt="" width="100%">
-</p>
+<sub>Stats and cards above refresh automatically every day from my GitHub data.</sub>

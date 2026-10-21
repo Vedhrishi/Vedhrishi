@@ -1,0 +1,140 @@
+[
+ {
+  "repo": "RISHI-INDIAN-STOCKS-EXPLAINED",
+  "title": "RISHI | Indian Stocks Explained",
+  "blurb": "Financial-literacy video series for first-time Indian investors, with a live website that gathers every episode.",
+  "live": "https://rishi-indian-stocks-explained.vercel.app",
+  "langs": {
+   "Python": 47836,
+   "JavaScript": 41371,
+   "HTML": 36746,
+   "CSS": 35578,
+   "PLpgSQL": 1713,
+   "PowerShell": 947,
+   "Batchfile": 558
+  },
+  "commits": 27,
+  "pushed": "2026-10-21",
+  "size": 76903,
+  "topics": [
+   "animation",
+   "education",
+   "ffmpeg",
+   "financial-literacy",
+   "indian-stock-market",
+   "javascript",
+   "python",
+   "supabase",
+   "vercel"
+  ]
+ },
+ {
+  "repo": "RISHI-AUTOMATION",
+  "title": "RISHI Automation",
+  "blurb": "Scheduling, caption and metadata pipeline for the series, with a health check that compares several data sources.",
+  "live": null,
+  "langs": {
+   "Python": 120134,
+   "PowerShell": 3503,
+   "Batchfile": 97
+  },
+  "commits": 4,
+  "pushed": "2026-10-21",
+  "size": 356,
+  "topics": [
+   "automation",
+   "content-pipeline",
+   "python",
+   "youtube-api"
+  ]
+ },
+ {
+  "repo": "INTELLITRAP",
+  "title": "IntelliTrap",
+  "blurb": "Secure cloud storage with a RandomForest risk-scoring layer that flags suspicious sessions for an admin.",
+  "live": "https://intellitrap-batch-3.vercel.app",
+  "langs": {
+   "TypeScript": 790083,
+   "PLpgSQL": 85053,
+   "Python": 59188,
+   "JavaScript": 15451,
+   "CSS": 12159
+  },
+  "commits": 355,
+  "pushed": "2026-10-21",
+  "size": 4603,
+  "topics": [
+   "machine-learning",
+   "supabase",
+   "typescript",
+   "vite"
+  ]
+ },
+ {
+  "repo": "AI-PLASTIC-SORTING-WEBSITE",
+  "title": "Plastic Decoder",
+  "blurb": "In-browser plastic resin identification with YOLOv8 and ResNet-18. Photos never leave the device.",
+  "live": "https://plastic-decoder-project.vercel.app",
+  "langs": {
+   "JavaScript": 190024,
+   "CSS": 3069,
+   "HTML": 1003
+  },
+  "commits": 28,
+  "pushed": "2026-10-21",
+  "size": 66780,
+  "topics": [
+   "computer-vision",
+   "privacy-first",
+   "recycling",
+   "resnet",
+   "sustainability",
+   "vite",
+   "webgl",
+   "yolov8"
+  ]
+ },
+ {
+  "repo": "BIO-LOCK",
+  "title": "BioLock SSD",
+  "blurb": "Face-authenticated lock for external drives using OpenCV and AES-256-GCM encryption.",
+  "live": null,
+  "langs": {
+   "Python": 131039
+  },
+  "commits": 1,
+  "pushed": "2026-10-21",
+  "size": 48,
+  "topics": [
+   "aes-256-gcm",
+   "cybersecurity",
+   "encryption",
+   "face-recognition",
+   "opencv",
+   "python",
+   "usb-security"
+  ]
+ },
+ {
+  "repo": "SIH-CODE_MAVERICKS",
+  "title": "SIH Code Mavericks",
+  "blurb": "Multilingual admission assistant built for the Smart India Hackathon with React and TypeScript.",
+  "live": null,
+  "langs": {
+   "TypeScript": 129856,
+   "JavaScript": 990,
+   "HTML": 387,
+   "CSS": 59
+  },
+  "commits": 3,
+  "pushed": "2026-10-21",
+  "size": 73,
+  "topics": [
+   "react",
+   "smart-india-hackathon",
+   "tailwindcss",
+   "typescript",
+   "vite"
+  ]
+ }
+]
