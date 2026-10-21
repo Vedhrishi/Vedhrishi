@@ -10,6 +10,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20to-Software%20Engineering%20Roles-2ea44f?style=for-the-badge" alt="Open to software engineering roles">
+  <a href="https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/"><img src="https://img.shields.io/badge/LinkedIn-Vedhrishi%20Pasupuleti-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
   <img src="https://img.shields.io/badge/Based%20in-Hyderabad%2C%20India-0a66c2?style=for-the-badge" alt="Hyderabad, India">
   <img src="https://komarev.com/ghpvc/?username=Vedhrishi&label=Profile%20views&color=7c3aed&style=for-the-badge" alt="Profile views">
 </p>
@@ -72,6 +73,31 @@ The publishing engine behind the series: scheduling, captions, uploads and statu
 ### [SIH Code Mavericks](https://github.com/Vedhrishi/SIH-CODE_MAVERICKS)
 A multilingual admission assistant built for the Smart India Hackathon with React, TypeScript and Tailwind.
 
+## Certifications and learning
+
+| Credential | Issuer | Completed | Verify |
+|---|---|---|---|
+| **Google AI Professional Certificate** (7 courses) | Google via Coursera | Jun 2026 | [Verify](https://coursera.org/verify/professional-cert/KE2UAD30CICU) |
+| Financial Markets | Yale University via Coursera | May 2026 | [Verify](https://coursera.org/verify/BKT2CQFSGG1D) |
+| Foundations of Project Management | Google via Coursera | Jul 2026 | [Verify](https://coursera.org/verify/FU65M9YKDMUZ) |
+| Generative AI: Prompt Engineering Basics | Coursera | | [Course](https://www.coursera.org/learn/generative-ai-prompt-engineering-for-everyone) |
+| Drupal Training | EduPyramids, SINE, IIT Bombay (via CMR Technical Campus) | Mar 2026 | Certificate ID 3920325YWC |
+
+<details>
+<summary>Courses in the Google AI Professional Certificate</summary>
+
+- [AI Fundamentals](https://coursera.org/verify/0L3ILS7HMF10)
+- [AI for Brainstorming and Planning](https://coursera.org/verify/XZY4AFK2JZ0M)
+- [AI for Research and Insights](https://coursera.org/verify/WV3D6WJKOWUB)
+- [AI for Writing and Communicating](https://coursera.org/verify/9XF2KCFA7K6F)
+- [AI for Content Creation](https://coursera.org/verify/DQN3C5ZNED4N)
+- [AI for Data Analysis](https://coursera.org/verify/SOTYUUR9ZNGX)
+- [AI for App Building](https://coursera.org/verify/HJYCFFY5SWDO)
+
+</details>
+
+**Also:** completed the NISM Series-VIII (Equity Derivatives) study program in 2023, and took part in Technovanza 4.0 and 5.0, a national-level tech event run alongside the Smart India Hackathon. The finance coursework underpins the content in the RISHI series.
+
 ## Engineering principles
 
 1. **Measure first.** I profile with Lighthouse and tests before changing code, then re-measure.
@@ -81,7 +107,11 @@ A multilingual admission assistant built for the Smart India Hackathon with Reac
 
 ## Get in touch
 
-Open to software engineering roles and collaborations. Reach me through GitHub, or through the contact details on the [RISHI website](https://rishi-indian-stocks-explained.vercel.app).
+Open to software engineering roles and collaborations.
+
+- **LinkedIn:** [linkedin.com/in/vedhrishi-pasupuleti-6b6856408](https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/)
+- **GitHub:** you are here; the pinned repositories are my best work
+- **Projects:** [RISHI website](https://rishi-indian-stocks-explained.vercel.app)
 
 ## GitHub at a glance
 
