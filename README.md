@@ -16,9 +16,18 @@
 
 ---
 
-**Software developer | Computer vision, security and automation**
+**Software engineer | Computer vision, security and automation**
 
-I build complete products end to end: the model or pipeline, the web app, the deployment, and the documentation. My projects are live, tested and open source, and each one solves a concrete problem, from recycling to account security to financial literacy.
+I design, build and ship complete systems: the model or pipeline, the application around it, the deployment, and the tests and documentation that keep it maintainable. I care about the parts that make software trustworthy in production: privacy by default, secure data handling, measured performance and automated checks.
+
+> Every project below is live, open source and licensed. Where a number appears, I measured it.
+
+## Core strengths
+
+- **Applied machine learning, shipped:** I take models out of notebooks and into real products, including running vision models on-device in the browser so user data never leaves the phone.
+- **Security-minded engineering:** authenticated encryption, row-level security, threat classification and deception techniques, and a habit of auditing dependencies and keeping secrets out of source control.
+- **Full-stack delivery:** React and TypeScript front ends, Supabase and Postgres back ends, Vercel deployments and CI pipelines, handled end to end.
+- **Automation at scale:** media-rendering and multi-platform publishing pipelines that run on a schedule with little manual work.
 
 ## What I work with
 
@@ -30,40 +39,49 @@ I build complete products end to end: the model or pipeline, the web app, the de
 |---|---|
 | Languages | Python, TypeScript, JavaScript |
 | Web | React, Vite, Tailwind CSS, Vercel, Supabase (Postgres, Auth, row-level security) |
-| ML and vision | YOLOv8, ResNet-18, OpenCV, TensorFlow.js, scikit-learn (RandomForest) |
-| Security | AES-256-GCM encryption, face-based authentication, honeypots, MFA and OTP flows |
+| ML and vision | YOLOv8, ResNet-18, COCO-SSD, OpenCV, TensorFlow.js, scikit-learn (RandomForest) |
+| Security | AES-256-GCM, face-based authentication with liveness checks, honeypots, MFA and OTP flows |
 | Automation | FFmpeg render pipelines, YouTube / Facebook / Instagram publishing workflows, GitHub Actions |
-| Quality | Unit and end-to-end tests, CI, dependency auditing, documented security policies |
+| Quality | Unit and end-to-end tests, CI, `npm audit` gates, documented security policies |
 
 ## Selected projects
 
 ### [Plastic Decoder](https://github.com/Vedhrishi/AI-PLASTIC-SORTING-WEBSITE) ([live](https://plastic-decoder-project.vercel.app))
-Real-time plastic resin identification that runs entirely in the browser: YOLOv8 and ResNet-18 over WebGL, with disposal guidance for the Indian context. Photos never leave the device. Includes tests, CI and a security policy.
+**Problem:** people can't tell plastic resin types apart, so recyclable material gets contaminated.
+**Solution:** a camera app that identifies the resin (PET, HDPE, PP, PS) in real time and gives disposal guidance for India's plastic-waste rules.
+**Engineering:** YOLOv8 and ResNet-18 run on-device over WebGL, so photos never leave the browser. A person/hand veto step reduces false positives. It ships with end-to-end tests, CI and a published security policy. Measured on mobile with Lighthouse: 100 SEO, 96 best practices.
 
 ### [INTELLITRAP](https://github.com/Vedhrishi/INTELLITRAP) ([live](https://intellitrap-batch-3.vercel.app))
-Secure cloud storage with an AI deception layer: role-based access, row-level security, OTP-protected sharing, RandomForest behavioural risk scoring and honeypot diversion for suspicious sessions. Full-stack TypeScript with Supabase.
+**Problem:** stolen credentials let attackers browse a user's files unnoticed.
+**Solution:** secure cloud storage with an AI deception layer. Behavioural risk scoring (RandomForest) flags suspicious sessions and diverts them to honeypot data while an admin console shows the threat.
+**Engineering:** full-stack TypeScript with Supabase: role-based access, row-level security, OTP-protected sharing, a threat classifier and a tested risk engine.
 
 ### [BioLock SSD](https://github.com/Vedhrishi/BIO-LOCK)
-A face-authenticated lock for external drives, with liveness detection and an AES-256-GCM encrypted vault. Windows desktop app in Python with OpenCV, tested in CI.
+**Problem:** a lost USB drive means lost data.
+**Solution:** a face-authenticated lock for external drives with multi-step liveness detection and an AES-256-GCM encrypted vault.
+**Engineering:** deep face recognition (YuNet detection, SFace recognition), two-factor cryptography, a Windows desktop app in Python, and automated tests in CI.
 
 ### [RISHI | Indian Stocks Explained](https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED) ([live](https://rishi-indian-stocks-explained.vercel.app))
-An animated financial-literacy series for Indian retail investors, published on Instagram, YouTube and Facebook in English, Hindi and Telugu. I wrote the site, the video pipeline and the publishing tools. The site loads its 3D intro only when the device can handle it.
+**Problem:** stock-market education for first-time Indian investors is jargon-heavy and mostly English-only.
+**Solution:** an animated short-video series, with 100 episodes (200 parts) rendered in English, Hindi and Telugu and published on Instagram, YouTube and Facebook.
+**Engineering:** I built the video pipeline, the website and the publishing tools. On the site I profiled before optimizing: phones skip the 3D intro libraries entirely and get a purpose-built stacked layout instead.
 
 ### [RISHI Automation](https://github.com/Vedhrishi/RISHI-AUTOMATION)
-The engine behind the series: scheduling, captioning, uploads and status tracking across three platforms with minimal manual work.
+The publishing engine behind the series: scheduling, captions, uploads and status tracking across three platforms with minimal manual work, plus project documentation and retrospectives.
 
 ### [SIH Code Mavericks](https://github.com/Vedhrishi/SIH-CODE_MAVERICKS)
 A multilingual admission assistant built for the Smart India Hackathon with React, TypeScript and Tailwind.
 
-## How I work
+## Engineering principles
 
-- I ship working software with a live demo, a clear README and a license.
-- I treat security as part of the design: no committed secrets, audited dependencies, privacy-first defaults.
-- I measure before optimizing, for example profiling page performance with Lighthouse before changing code.
+1. **Measure first.** I profile with Lighthouse and tests before changing code, then re-measure.
+2. **Secure by default.** No committed secrets, audited dependencies, least-privilege data access, privacy-first design.
+3. **Ship, then document.** Live demo, clear README, license and tests for every project.
+4. **Automate the boring parts.** CI, dependency checks and publishing pipelines run without me.
 
 ## Get in touch
 
-Open to software engineering roles and collaborations. The fastest way to reach me is through GitHub, or through the contact details on the [RISHI website](https://rishi-indian-stocks-explained.vercel.app).
+Open to software engineering roles and collaborations. Reach me through GitHub, or through the contact details on the [RISHI website](https://rishi-indian-stocks-explained.vercel.app).
 
 ## GitHub at a glance
 
