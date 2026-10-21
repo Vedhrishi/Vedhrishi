@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/OPEN%20TO-DATA%20%26%20ANALYTICS%20INTERNSHIPS-2ea44f?style=for-the-badge" alt="Open to data and analytics internships"><br>
-  <a href="https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/"><img src="https://img.shields.io/badge/LinkedIn-Vedhrishi%20Pasupuleti-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/vedhrishi-pasupuleti/"><img src="https://img.shields.io/badge/LinkedIn-Vedhrishi%20Pasupuleti-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:vedhrishi54@gmail.com"><img src="https://img.shields.io/badge/Email-vedhrishi54%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <img src="https://img.shields.io/badge/Hyderabad-India-555?style=for-the-badge" alt="Hyderabad, India">
 </p>
@@ -111,6 +111,6 @@ Use the links under each card, or open **Project details** below for the full st
 
 ## Contact
 
-Open to data and analytics internships. Email [vedhrishi54@gmail.com](mailto:vedhrishi54@gmail.com) or message me on [LinkedIn](https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/).
+Open to data and analytics internships. Email [vedhrishi54@gmail.com](mailto:vedhrishi54@gmail.com) or message me on [LinkedIn](https://www.linkedin.com/in/vedhrishi-pasupuleti/).
 
 <sub>Stats and cards above refresh automatically every day from my GitHub data.</sub>
