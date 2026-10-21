@@ -22,7 +22,7 @@ I turn problems into working, deployed data projects: I define the requirements,
 
 Use the links under each card, or open **Project details** below for the full story of each one.
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top"><img src="assets/card-1.svg" alt="RISHI | Indian Stocks Explained" width="100%"><br>🔗 <a href="https://rishi-indian-stocks-explained.vercel.app">Live site</a> · <a href="https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED">Code</a></td>
 <td width="50%" valign="top"><img src="assets/card-2.svg" alt="RISHI Automation" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/RISHI-AUTOMATION">Code</a></td>
