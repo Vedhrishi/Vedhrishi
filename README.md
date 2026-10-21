@@ -1,18 +1,30 @@
-# Pasupuleti Vedh Rishi
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a66c2,100:7EE7FF&height=170&section=header&text=Pasupuleti%20Vedh%20Rishi&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Final-year%20B.Tech%20CSE%20%C2%B7%20Data%20%26%20Analytics%20Internship&descSize=16&descAlignY=60" alt="Pasupuleti Vedh Rishi, final-year B.Tech CSE, seeking a data and analytics internship" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=900&color=0A66C2&center=true&vCenter=true&width=760&lines=Data+and+analytics+internship+seeker;Pipelines+%C2%B7+ML+scoring+%C2%B7+computer+vision;6+live+projects+with+demos+and+documentation;Google+AI+%2B+Yale+Financial+Markets+certified" alt="Typing animation: data and analytics internship seeker, pipelines, ML scoring, computer vision, 6 projects, certifications">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20to-Data%20%26%20Analytics%20Internships-2ea44f?style=for-the-badge" alt="Open to data and analytics internships">
+  <a href="https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/"><img src="https://img.shields.io/badge/LinkedIn-Vedhrishi%20Pasupuleti-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <img src="https://img.shields.io/badge/Hyderabad%2C%20India-555?style=for-the-badge" alt="Hyderabad, India">
+</p>
 
 **Final-year B.Tech, Computer Science and Engineering | Seeking a data and analytics internship**
 Hyderabad, India | [LinkedIn](https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/) | [vedhrishi54@gmail.com](mailto:vedhrishi54@gmail.com)
 
-I build data projects by directing AI tools: I define the problem, write the requirements, review and test what the AI produces, and deploy the result. All projects below were built this way, with AI coding assistants doing the implementation under my direction. I am looking for an internship where I can apply AI-assisted analysis to real business data and learn from an analytics team.
+I turn problems into working, deployed data projects: I define the requirements, review and test the results, and ship with live demos and documentation. I am looking for an internship where I can work on real business data and learn from an analytics team.
 
 ## What I bring
 
-- **AI-assisted building:** turning a problem statement into a working, deployed project using AI tools, then checking the output with tests and measurements.
+- **End-to-end delivery:** from problem statement to a deployed project, checked with tests and measurements.
 - **Data and automation projects:** a publishing pipeline with scheduling and status tracking, an ML risk-scoring app, and a computer-vision app.
 - **Verified learning in AI and finance:** Google AI Specialization (including AI for Data Analysis) and Yale Financial Markets, both verifiable below.
 - **Communication:** documented projects with live demos, and a public series that explains finance in plain language.
 
-## Projects (built with AI assistance)
+## Projects
 
 ### [RISHI | Indian Stocks Explained](https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED) ([live](https://rishi-indian-stocks-explained.vercel.app))
 Financial-literacy video series for Indian retail investors: 100 episodes (200 short videos) on Instagram, YouTube and Facebook. Website on Vercel with Supabase (Postgres).
@@ -34,7 +46,11 @@ Multilingual admission assistant for the Smart India Hackathon (React, TypeScrip
 
 ## Tools used in these projects
 
-Python, TypeScript, JavaScript, React, Vite, Supabase (Postgres), SQLite, scikit-learn (RandomForest), YOLOv8, ResNet-18, OpenCV, FFmpeg, Git, GitHub Actions, Vercel. Built with AI coding assistants.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,js,react,vite,supabase,postgres,sqlite,sklearn,opencv,git,githubactions,vercel&perline=13" alt="Tools: Python, TypeScript, JavaScript, React, Vite, Supabase, Postgres, SQLite, scikit-learn, OpenCV, Git, GitHub Actions, Vercel">
+</p>
+
+Python, TypeScript, JavaScript, React, Vite, Supabase (Postgres), SQLite, scikit-learn (RandomForest), YOLOv8, ResNet-18, OpenCV, FFmpeg, Git, GitHub Actions, Vercel.
 
 ## Certifications
 
@@ -49,3 +65,7 @@ Python, TypeScript, JavaScript, React, Vite, Supabase (Postgres), SQLite, scikit
 ## Contact
 
 Open to data and analytics internships. Email [vedhrishi54@gmail.com](mailto:vedhrishi54@gmail.com) or message me on [LinkedIn](https://www.linkedin.com/in/vedhrishi-pasupuleti-6b6856408/).
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7EE7FF,100:0a66c2&height=90&section=footer" alt="" width="100%">
+</p>
