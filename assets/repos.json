@@ -60,8 +60,8 @@
    "JavaScript": 15451,
    "CSS": 12159
   },
-  "commits": 355,
-  "pushed": "2026-10-21",
+  "commits": 356,
+  "pushed": "2026-10-24",
   "size": 4603,
   "topics": [
    "machine-learning",
@@ -106,10 +106,10 @@
   "pushed": "2026-10-21",
   "size": 48,
   "topics": [
-   "aes-256-gcm",
    "cybersecurity",
    "encryption",
    "face-recognition",
+   "liveness-detection",
    "opencv",
    "python",
    "usb-security"
@@ -147,9 +147,9 @@
    "CSS": 34615,
    "HTML": 18985
   },
-  "commits": 3,
+  "commits": 4,
   "pushed": "2026-10-24",
-  "size": 0,
+  "size": 5897,
   "topics": [
    "calculator",
    "cat-exam",

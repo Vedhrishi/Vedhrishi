@@ -18,6 +18,13 @@ I turn problems into working, deployed data projects: I define the requirements,
 
 <p align="center"><img src="assets/stats.svg" alt="Projects, commits, live demos and languages across all repositories" width="100%"></p>
 
+<p align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vedhrishi/Vedhrishi/output/github-snake-dark.svg">
+<img src="https://raw.githubusercontent.com/Vedhrishi/Vedhrishi/output/github-snake.svg" alt="My GitHub contribution graph, animated as a snake" width="100%">
+</picture>
+</p>
+
 ## Projects
 
 Use the links under each card, or open **Project details** below for the full story of each one.
