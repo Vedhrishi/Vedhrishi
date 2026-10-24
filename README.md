@@ -47,7 +47,7 @@ Use the links under each card, or open **Project details** below for the full st
 <summary><b>RISHI | Indian Stocks Explained</b>: financial literacy for first-time Indian investors</summary>
 
 - **Problem:** stock-market education for beginners is jargon-heavy and mostly English-only.
-- **What it is:** a series of 80-second animated episodes (100 planned, released twice daily) on Instagram, YouTube and Facebook, plus a website that gathers them.
+- **What it is:** a series of 80-second animated episodes (100 episodes, 200 short videos, released twice a day) on Instagram, YouTube and Facebook, plus a website that gathers them.
 - **Data and tech:** episode metadata and schedules in Supabase (Postgres); static front end on Vercel; strict content-security policy and database row-level security.
 - **Rules I set:** education only, no stock tips, no return promises, clear disclaimers.
 - [Live site](https://rishi-indian-stocks-explained.vercel.app) · [Code](https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED)
@@ -66,7 +66,7 @@ Use the links under each card, or open **Project details** below for the full st
 <summary><b>IntelliTrap</b>: secure cloud storage with risk scoring</summary>
 
 - **Problem:** stolen credentials let attackers browse a user's files unnoticed.
-- **What it does:** a RandomForest model scores each session; suspicious sessions are diverted to decoy data while an admin console shows the threat.
+- **What it does:** a RandomForest model scores each session; suspicious sessions are diverted to decoy data while an admin console shows the threat. The model is trained on a synthetic dataset, and the app works at the application layer only.
 - **Tech:** TypeScript, Vite, Supabase (Postgres, row-level security), scikit-learn.
 - [Live demo](https://intellitrap-batch-3.vercel.app) · [Code](https://github.com/Vedhrishi/INTELLITRAP)
 </details>
@@ -76,7 +76,7 @@ Use the links under each card, or open **Project details** below for the full st
 
 - **Problem:** people cannot tell plastic types apart, so recyclable material gets contaminated.
 - **What it does:** identifies PET, HDPE, PP and PS from a photo and gives disposal guidance. YOLOv8 and ResNet-18 run on-device, so photos never leave the phone.
-- **Measured:** mobile Lighthouse 100 SEO and 96 best practices.
+- **Measured:** mobile Lighthouse 100 SEO and 100 best practices (checked 25 Oct 2026).
 - **Tech:** React, Vite, ONNX models, JavaScript.
 - [Live demo](https://plastic-decoder-project.vercel.app) · [Code](https://github.com/Vedhrishi/AI-PLASTIC-SORTING-WEBSITE)
 </details>
