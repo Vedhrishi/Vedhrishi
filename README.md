@@ -85,7 +85,7 @@ Use the links under each card, or open **Project details** below for the full st
 <summary><b>BioLock SSD</b>: face-authenticated drive lock</summary>
 
 - **Problem:** a lost USB drive means lost data.
-- **What it does:** unlocks only after presence, blink and head-turn checks plus a face match; the vault is encrypted with AES-256-GCM. Includes automated tests in CI.
+- **What it does:** unlocks only after presence, blink and head-turn checks plus a face match, and refuses to run from an internal drive. The vault key is derived with PBKDF2 and Fernet. Includes 25 automated tests in CI.
 - **Tech:** Python, OpenCV, Tkinter, Windows desktop.
 - [Code](https://github.com/Vedhrishi/BIO-LOCK)
 </details>

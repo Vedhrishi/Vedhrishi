@@ -97,7 +97,7 @@
  {
   "repo": "BIO-LOCK",
   "title": "BioLock SSD",
-  "blurb": "Face-authenticated lock for external drives using OpenCV and AES-256-GCM encryption.",
+  "blurb": "Face-recognition lock for external drives with multi-step liveness checks, built with OpenCV and Python.",
   "live": null,
   "langs": {
    "Python": 131039

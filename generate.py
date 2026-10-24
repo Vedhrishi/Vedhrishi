@@ -23,7 +23,7 @@ REPOS = [
      "In-browser plastic resin identification with YOLOv8 and ResNet-18. Photos never leave the device.",
      "https://plastic-decoder-project.vercel.app"),
     ("BIO-LOCK", "BioLock SSD",
-     "Face-authenticated lock for external drives using OpenCV and AES-256-GCM encryption.",
+     "Face-recognition lock for external drives with multi-step liveness checks, built with OpenCV and Python.",
      None),
     ("SIH-CODE_MAVERICKS", "SIH Code Mavericks",
      "Multilingual admission assistant built for the Smart India Hackathon with React and TypeScript.",
