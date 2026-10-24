@@ -81,8 +81,8 @@
    "HTML": 1003
   },
   "commits": 28,
-  "pushed": "2026-10-21",
-  "size": 66780,
+  "pushed": "2026-10-24",
+  "size": 67098,
   "topics": [
    "computer-vision",
    "privacy-first",
@@ -135,6 +135,29 @@
    "tailwindcss",
    "typescript",
    "vite"
+  ]
+ },
+ {
+  "repo": "bschool-atlas",
+  "title": "B-School Atlas",
+  "blurb": "Compare MBA destinations, Indian B-school cut-offs by exam and payback, with sidebar navigation and site-wide search.",
+  "live": "https://vedhrishi.github.io/bschool-atlas/",
+  "langs": {
+   "JavaScript": 128685,
+   "CSS": 34615,
+   "HTML": 18985
+  },
+  "commits": 3,
+  "pushed": "2026-10-24",
+  "size": 0,
+  "topics": [
+   "calculator",
+   "cat-exam",
+   "education",
+   "gmat",
+   "india",
+   "javascript",
+   "mba"
   ]
  }
 ]

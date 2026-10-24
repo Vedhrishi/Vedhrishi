@@ -28,6 +28,9 @@ REPOS = [
     ("SIH-CODE_MAVERICKS", "SIH Code Mavericks",
      "Multilingual admission assistant built for the Smart India Hackathon with React and TypeScript.",
      None),
+    ("bschool-atlas", "B-School Atlas",
+     "Compare MBA destinations, Indian B-school cut-offs by exam and payback, with sidebar navigation and site-wide search.",
+     "https://vedhrishi.github.io/bschool-atlas/"),
 ]
 LANG_COLOR = {"Python": "#3776ab", "TypeScript": "#3178c6", "JavaScript": "#f1e05a", "HTML": "#e34c26", "CSS": "#8a63d2",
               "PLpgSQL": "#336791", "PowerShell": "#5391fe", "Batchfile": "#c1f12e"}
@@ -66,7 +69,7 @@ def top_langs(langs, n=3):
 
 # ---------------------------------------------------------------- animated banner (static file, no data)
 def banner():
-    roles = ["Final-year B.Tech CSE", "Data &amp; analytics internship seeker", "Pipelines · ML scoring · computer vision", "6 live projects, all documented"]
+    roles = ["Final-year B.Tech CSE", "Data &amp; analytics internship seeker", "Pipelines · ML scoring · computer vision", "7 projects, all documented"]
     spans = "".join(
         f'<text x="500" y="168" text-anchor="middle" fill="{INK}" font-size="26" {FONT} opacity="0">{r}'
         f'<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.22;0.28;1" dur="16s" begin="{i*4}s" repeatCount="indefinite"/></text>'

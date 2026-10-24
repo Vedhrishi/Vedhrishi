@@ -35,6 +35,10 @@ Use the links under each card, or open **Project details** below for the full st
 <td valign="top"><img src="assets/card-5.svg" alt="BioLock SSD" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/BIO-LOCK">Code</a></td>
 <td valign="top"><img src="assets/card-6.svg" alt="SIH Code Mavericks" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/SIH-CODE_MAVERICKS">Code</a></td>
 </tr>
+<tr>
+<td valign="top"><img src="assets/card-7.svg" alt="B-School Atlas" width="100%"><br>🔗 <a href="https://vedhrishi.github.io/bschool-atlas/">Live site</a> · <a href="https://github.com/Vedhrishi/bschool-atlas">Code</a></td>
+<td></td>
+</tr>
 </table>
 
 ### Project details
@@ -93,6 +97,15 @@ Use the links under each card, or open **Project details** below for the full st
 - **What it does:** guides a student through language, quota, documents and a chatbot questionnaire to a final summary. Built for the Smart India Hackathon.
 - **Tech:** React, TypeScript, Vite, Tailwind CSS.
 - [Code](https://github.com/Vedhrishi/SIH-CODE_MAVERICKS)
+</details>
+
+<details>
+<summary><b>B-School Atlas</b>: compare MBA destinations and Indian B-school cut-offs</summary>
+
+- **Problem:** MBA applicants juggle scattered data on fees, cut-offs and salaries across countries and exams.
+- **What it does:** compares destinations by cost, salary and payback; filters Indian colleges by exam and percentile; sidebar navigation with site-wide search over colleges, countries, exams and glossary terms.
+- **Tech:** vanilla JavaScript, HTML and CSS, unit tests with `node --test`, GitHub Actions deploy to GitHub Pages.
+- [Live site](https://vedhrishi.github.io/bschool-atlas/) · [Code](https://github.com/Vedhrishi/bschool-atlas)
 </details>
 
 ## Tools used
