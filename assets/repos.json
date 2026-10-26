@@ -13,9 +13,9 @@
    "PowerShell": 947,
    "Batchfile": 558
   },
-  "commits": 30,
-  "pushed": "2026-10-22",
-  "size": 77382,
+  "commits": 35,
+  "pushed": "2026-10-26",
+  "size": 77387,
   "topics": [
    "animation",
    "education",
@@ -143,13 +143,13 @@
   "blurb": "Compare MBA destinations, Indian B-school cut-offs by exam and payback, with sidebar navigation and site-wide search.",
   "live": "https://vedhrishi.github.io/bschool-atlas/",
   "langs": {
-   "JavaScript": 128685,
-   "CSS": 34615,
-   "HTML": 18985
+   "JavaScript": 131101,
+   "CSS": 36966,
+   "HTML": 20225
   },
-  "commits": 4,
-  "pushed": "2026-10-24",
-  "size": 5898,
+  "commits": 5,
+  "pushed": "2026-10-26",
+  "size": 5980,
   "topics": [
    "calculator",
    "cat-exam",
