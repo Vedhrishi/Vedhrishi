@@ -10,6 +10,9 @@ OUT.mkdir(exist_ok=True)
 
 # Hand-written, truthful descriptions (what each project is), merged with live numbers from the API.
 REPOS = [
+    ("gemini-maps", "Gemini Maps",
+     "Crowdsourced road-hazard navigation with a Guardian rerouting agent, live traffic and hands-free voice control.",
+     "https://vedhrishi.github.io/gemini-maps/"),
     ("RISHI-INDIAN-STOCKS-EXPLAINED", "RISHI | Indian Stocks Explained",
      "Financial-literacy video series for first-time Indian investors, with a live website that gathers every episode.",
      "https://rishi-indian-stocks-explained.vercel.app"),
@@ -69,7 +72,7 @@ def top_langs(langs, n=3):
 
 # ---------------------------------------------------------------- animated banner (static file, no data)
 def banner():
-    roles = ["Final-year B.Tech CSE", "Data &amp; analytics internship seeker", "Pipelines · ML scoring · computer vision", "7 projects, all documented"]
+    roles = ["Final-year B.Tech CSE", "Data &amp; analytics internship seeker", "Pipelines · ML scoring · computer vision", "8 projects, all documented"]
     spans = "".join(
         f'<text x="500" y="168" text-anchor="middle" fill="{INK}" font-size="26" {FONT} opacity="0">{r}'
         f'<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.22;0.28;1" dur="16s" begin="{i*4}s" repeatCount="indefinite"/></text>'

@@ -1,5 +1,22 @@
 [
  {
+  "repo": "gemini-maps",
+  "title": "Gemini Maps",
+  "blurb": "Crowdsourced road-hazard navigation with a Guardian rerouting agent, live traffic and hands-free voice control.",
+  "live": "https://vedhrishi.github.io/gemini-maps/",
+  "langs": {
+   "TypeScript": 310240,
+   "Python": 51745,
+   "CSS": 7270,
+   "HTML": 3680,
+   "JavaScript": 1543
+  },
+  "commits": 6,
+  "pushed": "2026-10-27",
+  "size": 92833,
+  "topics": []
+ },
+ {
   "repo": "RISHI-INDIAN-STOCKS-EXPLAINED",
   "title": "RISHI | Indian Stocks Explained",
   "blurb": "Financial-literacy video series for first-time Indian investors, with a live website that gathers every episode.",

@@ -31,24 +31,35 @@ Use the links under each card, or open **Project details** below for the full st
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top"><img src="assets/card-1.svg" alt="RISHI | Indian Stocks Explained" width="100%"><br>🔗 <a href="https://rishi-indian-stocks-explained.vercel.app">Live site</a> · <a href="https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED">Code</a></td>
-<td width="50%" valign="top"><img src="assets/card-2.svg" alt="RISHI Automation" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/RISHI-AUTOMATION">Code</a></td>
+<td width="50%" valign="top"><img src="assets/card-1.svg" alt="Gemini Maps" width="100%"><br>🔗 <a href="https://vedhrishi.github.io/gemini-maps/">Live app</a> · <a href="https://github.com/Vedhrishi/gemini-maps">Code</a></td>
+<td width="50%" valign="top"><img src="assets/card-2.svg" alt="RISHI | Indian Stocks Explained" width="100%"><br>🔗 <a href="https://rishi-indian-stocks-explained.vercel.app">Live site</a> · <a href="https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED">Code</a></td>
 </tr>
 <tr>
-<td valign="top"><img src="assets/card-3.svg" alt="IntelliTrap" width="100%"><br>🔗 <a href="https://intellitrap-batch-3.vercel.app">Live demo</a> · <a href="https://github.com/Vedhrishi/INTELLITRAP">Code</a></td>
-<td valign="top"><img src="assets/card-4.svg" alt="Plastic Decoder" width="100%"><br>🔗 <a href="https://plastic-decoder-project.vercel.app">Live demo</a> · <a href="https://github.com/Vedhrishi/AI-PLASTIC-SORTING-WEBSITE">Code</a></td>
+<td width="50%" valign="top"><img src="assets/card-3.svg" alt="RISHI Automation" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/RISHI-AUTOMATION">Code</a></td>
+<td width="50%" valign="top"><img src="assets/card-4.svg" alt="IntelliTrap" width="100%"><br>🔗 <a href="https://intellitrap-batch-3.vercel.app">Live demo</a> · <a href="https://github.com/Vedhrishi/INTELLITRAP">Code</a></td>
 </tr>
 <tr>
-<td valign="top"><img src="assets/card-5.svg" alt="BioLock SSD" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/BIO-LOCK">Code</a></td>
-<td valign="top"><img src="assets/card-6.svg" alt="SIH Code Mavericks" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/SIH-CODE_MAVERICKS">Code</a></td>
+<td width="50%" valign="top"><img src="assets/card-5.svg" alt="Plastic Decoder" width="100%"><br>🔗 <a href="https://plastic-decoder-project.vercel.app">Live demo</a> · <a href="https://github.com/Vedhrishi/AI-PLASTIC-SORTING-WEBSITE">Code</a></td>
+<td width="50%" valign="top"><img src="assets/card-6.svg" alt="BioLock SSD" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/BIO-LOCK">Code</a></td>
 </tr>
 <tr>
-<td valign="top"><img src="assets/card-7.svg" alt="B-School Atlas" width="100%"><br>🔗 <a href="https://vedhrishi.github.io/bschool-atlas/">Live site</a> · <a href="https://github.com/Vedhrishi/bschool-atlas">Code</a></td>
-<td></td>
+<td width="50%" valign="top"><img src="assets/card-7.svg" alt="SIH Code Mavericks" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/SIH-CODE_MAVERICKS">Code</a></td>
+<td width="50%" valign="top"><img src="assets/card-8.svg" alt="B-School Atlas" width="100%"><br>🔗 <a href="https://vedhrishi.github.io/bschool-atlas/">Live site</a> · <a href="https://github.com/Vedhrishi/bschool-atlas">Code</a></td>
 </tr>
 </table>
 
 ### Project details
+
+<details open>
+<summary><b>Gemini Maps</b>: navigation that warns you about the road</summary>
+
+- **Problem:** maps tell you the fastest route but not about the pothole, flood or accident on it.
+- **What it does:** drivers report hazards by photo or voice and nearby users see them within seconds. A Guardian agent compares safer alternatives and re-routes only when one is clearly better. Spoken traffic summary for every trip, "nearest petrol pump" style search, and hands-free voice control.
+- **Data:** about 4.9 million India places and named buildings from Overture Maps, cached on the device; live traffic from TomTom; routing from OSRM. Hazards come only from real user reports.
+- **Tech:** React, TypeScript, Vite, MapLibre, FastAPI, Render, GitHub Pages. 12 backend tests.
+- Built for the Meta Global AI Developer Hackathon, 2026.
+- [Live app](https://vedhrishi.github.io/gemini-maps/) · [Code](https://github.com/Vedhrishi/gemini-maps)
+</details>
 
 <details>
 <summary><b>RISHI | Indian Stocks Explained</b>: financial literacy for first-time Indian investors</summary>
