@@ -177,6 +177,64 @@ def featured():
 {ch}
 <text x="972" y="364" text-anchor="end" font-size="12" fill="{MUTED}" {FONT}>React · TypeScript · MapLibre · FastAPI</text></g></svg>'''
 
+
+# ---------------------------------------------------------------- one featured card per live project (static, animated)
+LIVE = [
+    ("stocks", "RISHI | Indian Stocks Explained", "Financial literacy for first-time Indian investors, as short animated episodes.",
+     ["100 episodes", "200 short videos", "Twice-daily releases"], "https://rishi-indian-stocks-explained.vercel.app", "rishi-indian-stocks-explained.vercel.app"),
+    ("intellitrap", "IntelliTrap", "Secure cloud storage that scores every session for risk and diverts suspicious ones to decoy data.",
+     ["RandomForest scoring", "Admin threat console", "Supabase row-level security"], "https://intellitrap-batch-3.vercel.app", "intellitrap-batch-3.vercel.app"),
+    ("plastic", "Plastic Decoder", "Identifies plastic types from a photo, on the device, so photos never leave the phone.",
+     ["YOLOv8 + ResNet-18", "Lighthouse 100 SEO", "Works on-device"], "https://plastic-decoder-project.vercel.app", "plastic-decoder-project.vercel.app"),
+    ("atlas", "B-School Atlas", "Compare MBA destinations and Indian B-school cut-offs by exam, percentile and payback.",
+     ["Site-wide search", "30 automated tests", "Auto-deployed from GitHub"], "https://vedhrishi.github.io/bschool-atlas/", "vedhrishi.github.io/bschool-atlas"),
+]
+
+
+def live_motif(kind):
+    if kind == "stocks":
+        bars = ""
+        for i, (h, up) in enumerate([(40, 1), (70, 1), (55, 0), (95, 1), (80, 0), (120, 1), (150, 1)]):
+            x = 640 + i * 44
+            c = "#3ddc97" if up else "#ff5a5f"
+            bars += (f'<rect x="{x}" y="{250-h}" width="26" height="{h}" rx="4" fill="{c}" opacity=".85"><animate attributeName="height" values="0;{h}" dur="1s" begin="{i*.18}s" fill="freeze"/>'
+                     f'<animate attributeName="y" values="250;{250-h}" dur="1s" begin="{i*.18}s" fill="freeze"/></rect>')
+        return bars + '<polyline points="653,200 697,170 741,185 785,140 829,150 873,105 917,70" fill="none" stroke="#4cc2ff" stroke-width="3" stroke-dasharray="500" stroke-dashoffset="500"><animate attributeName="stroke-dashoffset" values="500;0" dur="2s" begin=".6s" fill="freeze"/></polyline>'
+    if kind == "intellitrap":
+        return (f'<path d="M780 50 L880 85 V160 C880 215 835 245 780 262 C725 245 680 215 680 160 V85 Z" fill="#121f3a" stroke="#4cc2ff" stroke-width="3"/>'
+                '<circle cx="780" cy="150" r="46" fill="none" stroke="#4cc2ff" stroke-width="2"><animate attributeName="r" values="30;70;30" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0;.8" dur="3s" repeatCount="indefinite"/></circle>'
+                '<rect x="735" y="205" width="90" height="12" rx="6" fill="#1a2540"/><rect x="735" y="205" width="20" height="12" rx="6" fill="#3ddc97"><animate attributeName="width" values="20;88;20" dur="5s" repeatCount="indefinite"/><animate attributeName="fill" values="#3ddc97;#ffb020;#ff5a5f;#3ddc97" dur="5s" repeatCount="indefinite"/></rect>'
+                f'<text x="780" y="236" text-anchor="middle" font-size="13" fill="{MUTED}" {FONT}>session risk</text>')
+    if kind == "plastic":
+        return (f'<path d="M770 52 h40 v22 l16 26 v130 a14 14 0 0 1 -14 14 h-44 a14 14 0 0 1 -14 -14 v-130 l16 -26 z" fill="#121f3a" stroke="#4cc2ff" stroke-width="3"/>'
+                '<rect x="730" y="120" width="120" height="3" fill="#3ddc97" opacity=".9"><animate attributeName="y" values="90;240;90" dur="3s" repeatCount="indefinite"/></rect>'
+                + "".join(f'<g transform="translate({690+i*52},262)"><rect width="46" height="24" rx="12" fill="#1a2540" stroke="#2a3b66"/><text x="23" y="16" text-anchor="middle" font-size="12" fill="{INK}" {FONT}>{t}'
+                          f'<animate attributeName="fill" values="{INK};#3ddc97;{INK}" dur="4s" begin="{i}s" repeatCount="indefinite"/></text></g>' for i, t in enumerate(["PET", "HDPE", "PP", "PS"])))
+    bars = ""
+    for i, h in enumerate([50, 90, 120, 80, 150]):
+        x = 660 + i * 50
+        bars += (f'<rect x="{x}" y="{250-h}" width="32" height="{h}" rx="6" fill="#4cc2ff" opacity="{.45+i*.1:.2f}"><animate attributeName="height" values="0;{h}" dur=".9s" begin="{i*.15}s" fill="freeze"/>'
+                 f'<animate attributeName="y" values="250;{250-h}" dur=".9s" begin="{i*.15}s" fill="freeze"/></rect>')
+    return bars + f'<circle cx="905" cy="52" r="30" fill="none" stroke="#7c5cff" stroke-width="3" stroke-dasharray="190" stroke-dashoffset="190"><animate attributeName="stroke-dashoffset" values="190;55" dur="1.8s" begin=".8s" fill="freeze"/></circle><text x="905" y="57" text-anchor="middle" font-size="15" font-weight="700" fill="{INK}" {FONT}>MBA</text>'
+
+
+def live_card(i, kind, title, blurb, chips, url, short):
+    lines = textwrap.wrap(blurb, 52)[:3]
+    desc = "".join(f'<text x="32" y="{118+k*26}" font-size="18" fill="{MUTED}" {FONT}>{esc(l)}</text>' for k, l in enumerate(lines))
+    ch, cx = "", 32
+    for t in chips:
+        w = len(t) * 8 + 30
+        ch += f'<g transform="translate({cx:.0f},206)"><rect width="{w:.0f}" height="30" rx="15" fill="#1a2540" stroke="#2a3b66"/><text x="15" y="20" font-size="13" fill="{INK}" {FONT}>{esc(t)}</text></g>'
+        cx += w + 8
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-label="{esc(title)}, live project">
+<defs><linearGradient id="lg{i}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#13294f"/></linearGradient><clipPath id="lc{i}"><rect width="1000" height="300" rx="22"/></clipPath>
+<pattern id="gr{i}" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1d2c4d" stroke-width="1"/></pattern></defs>
+<g clip-path="url(#lc{i})"><rect width="1000" height="300" fill="url(#lg{i})"/><rect width="1000" height="300" fill="url(#gr{i})" opacity=".7"/>
+<circle cx="40" cy="44" r="6" fill="#3ddc97"><animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="54" y="49" font-size="13" font-weight="700" fill="#3ddc97" letter-spacing="2" {FONT}>LIVE</text>
+<text x="32" y="92" font-size="34" font-weight="700" fill="#fff" letter-spacing="-.5" {FONT}>{esc(title)}</text>{desc}{ch}
+<text x="32" y="276" font-size="14" fill="{ACCENT}" {FONT}>{esc(short)}</text>{live_motif(kind)}</g></svg>'''
+
 # ---------------------------------------------------------------- skills chips (only tools used in the repos)
 def skills():
     groups = [("Languages", ["Python", "TypeScript", "JavaScript"]),
@@ -203,6 +261,8 @@ if __name__ == "__main__":
     (OUT / "banner.svg").write_text(banner(), encoding="utf8")
     (OUT / "stats.svg").write_text(stats(rows), encoding="utf8")
     (OUT / "featured-gemini-maps.svg").write_text(featured(), encoding="utf8")
+    for j, spec in enumerate(LIVE):
+        (OUT / f"live-{spec[0]}.svg").write_text(live_card(j, *spec), encoding="utf8")
     (OUT / "skills.svg").write_text(skills(), encoding="utf8")
     for i, r in enumerate(rows):
         (OUT / f"card-{i+1}.svg").write_text(card(i, r), encoding="utf8")

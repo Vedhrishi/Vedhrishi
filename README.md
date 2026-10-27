@@ -25,32 +25,30 @@ I turn problems into working, deployed data projects: I define the requirements,
 </picture>
 </p>
 
-## Featured project
+## Live projects
 
-<p align="center"><a href="https://vedhrishi.github.io/gemini-maps/"><img src="assets/featured-gemini-maps.svg" alt="Gemini Maps: a hazard appears on the route and the Guardian switches to a safer road" width="100%"></a></p>
+Five projects running in production. Click a card to open it.
 
-<p align="center"><a href="https://vedhrishi.github.io/gemini-maps/">Open the live app</a> · <a href="https://github.com/Vedhrishi/gemini-maps">Code</a></p>
+<p align="center"><a href="https://vedhrishi.github.io/gemini-maps/"><img src="assets/featured-gemini-maps.svg" alt="Gemini Maps, live: a hazard appears on the route and the Guardian switches to a safer road" width="100%"></a><br><a href="https://vedhrishi.github.io/gemini-maps/">Open the app</a> · <a href="https://github.com/Vedhrishi/gemini-maps">Code</a></p>
 
-## Projects
+<p align="center"><a href="https://rishi-indian-stocks-explained.vercel.app"><img src="assets/live-stocks.svg" alt="RISHI | Indian Stocks Explained, live project" width="100%"></a><br><a href="https://rishi-indian-stocks-explained.vercel.app">Open the site</a> · <a href="https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED">Code</a></p>
 
-Use the links under each card, or open **Project details** below for the full story of each one.
+<p align="center"><a href="https://intellitrap-batch-3.vercel.app"><img src="assets/live-intellitrap.svg" alt="IntelliTrap, live project" width="100%"></a><br><a href="https://intellitrap-batch-3.vercel.app">Open the site</a> · <a href="https://github.com/Vedhrishi/INTELLITRAP">Code</a></p>
+
+<p align="center"><a href="https://plastic-decoder-project.vercel.app"><img src="assets/live-plastic.svg" alt="Plastic Decoder, live project" width="100%"></a><br><a href="https://plastic-decoder-project.vercel.app">Open the site</a> · <a href="https://github.com/Vedhrishi/AI-PLASTIC-SORTING-WEBSITE">Code</a></p>
+
+<p align="center"><a href="https://vedhrishi.github.io/bschool-atlas/"><img src="assets/live-atlas.svg" alt="B-School Atlas, live project" width="100%"></a><br><a href="https://vedhrishi.github.io/bschool-atlas/">Open the site</a> · <a href="https://github.com/Vedhrishi/bschool-atlas">Code</a></p>
+
+## More projects
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top"><img src="assets/card-1.svg" alt="Gemini Maps" width="100%"><br>🔗 <a href="https://vedhrishi.github.io/gemini-maps/">Live app</a> · <a href="https://github.com/Vedhrishi/gemini-maps">Code</a></td>
-<td width="50%" valign="top"><img src="assets/card-2.svg" alt="RISHI | Indian Stocks Explained" width="100%"><br>🔗 <a href="https://rishi-indian-stocks-explained.vercel.app">Live site</a> · <a href="https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED">Code</a></td>
-</tr>
-<tr>
 <td width="50%" valign="top"><img src="assets/card-3.svg" alt="RISHI Automation" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/RISHI-AUTOMATION">Code</a></td>
-<td width="50%" valign="top"><img src="assets/card-4.svg" alt="IntelliTrap" width="100%"><br>🔗 <a href="https://intellitrap-batch-3.vercel.app">Live demo</a> · <a href="https://github.com/Vedhrishi/INTELLITRAP">Code</a></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><img src="assets/card-5.svg" alt="Plastic Decoder" width="100%"><br>🔗 <a href="https://plastic-decoder-project.vercel.app">Live demo</a> · <a href="https://github.com/Vedhrishi/AI-PLASTIC-SORTING-WEBSITE">Code</a></td>
 <td width="50%" valign="top"><img src="assets/card-6.svg" alt="BioLock SSD" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/BIO-LOCK">Code</a></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><img src="assets/card-7.svg" alt="SIH Code Mavericks" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/SIH-CODE_MAVERICKS">Code</a></td>
-<td width="50%" valign="top"><img src="assets/card-8.svg" alt="B-School Atlas" width="100%"><br>🔗 <a href="https://vedhrishi.github.io/bschool-atlas/">Live site</a> · <a href="https://github.com/Vedhrishi/bschool-atlas">Code</a></td>
+<td valign="top"><img src="assets/card-7.svg" alt="SIH Code Mavericks" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/SIH-CODE_MAVERICKS">Code</a></td>
+<td></td>
 </tr>
 </table>
 
