@@ -144,10 +144,46 @@ def card(i, r):
 <text x="28" y="228" font-size="13" fill="{MUTED}" {FONT}>{r['commits']} commit{'s' if r['commits'] != 1 else ''} · updated {r['pushed']}</text></svg>'''
 
 
+
+# ---------------------------------------------------------------- featured project banner (static, animated)
+def featured():
+    route = "M70 292 C 190 292 210 210 330 205 S 520 215 600 150 S 790 120 930 92"
+    alt = "M330 205 C 380 285 520 300 640 250 S 840 170 930 92"
+    ch, cx = "", 28
+    for t in ["Hazard-aware routes", "Guardian reroute", "Hey Gemini voice control", "4.9M places offline in India"]:
+        w = len(t) * 8.2 + 30
+        ch += f'<g transform="translate({cx:.0f},318)"><rect width="{w:.0f}" height="30" rx="15" fill="#1a2540" stroke="#2a3b66"/><text x="15" y="20" font-size="13" fill="{INK}" {FONT}>{t}</text></g>'
+        cx += w + 10
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" role="img" aria-label="Gemini Maps: a hazard on the route, the Guardian switches to a safer road">
+<defs><linearGradient id="fg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#13294f"/></linearGradient>
+<clipPath id="fc"><rect width="1000" height="380" rx="22"/></clipPath>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1d2c4d" stroke-width="1"/></pattern></defs>
+<g clip-path="url(#fc)"><rect width="1000" height="380" fill="url(#fg)"/><rect width="1000" height="380" fill="url(#grid)" opacity=".7"/>
+<text x="28" y="52" font-size="13" font-weight="700" fill="{ACCENT}" letter-spacing="2" {FONT}>FEATURED PROJECT</text>
+<text x="28" y="96" font-size="44" font-weight="700" fill="#fff" letter-spacing="-1" {FONT}>Gemini Maps</text>
+<text x="28" y="126" font-size="17" fill="{MUTED}" {FONT}>Navigation that warns you about the road, not just the route.</text>
+<path id="main" d="{route}" fill="none" stroke="#5b6b8c" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+<path d="{alt}" fill="none" stroke="#3ddc97" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 9" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.42;.5;.92;1" dur="9s" repeatCount="indefinite"/></path>
+<path d="{route}" fill="none" stroke="{ACCENT}" stroke-width="5" stroke-linecap="round" stroke-dasharray="1100" stroke-dashoffset="1100"><animate attributeName="stroke-dashoffset" values="1100;0;0;0" keyTimes="0;.3;.92;1" dur="9s" repeatCount="indefinite"/></path>
+<g><circle cx="600" cy="150" r="18" fill="#ff5a5f" opacity=".25"><animate attributeName="r" values="10;30;10" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".5;0;.5" dur="2s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="150" r="9" fill="#ff5a5f"/><text x="600" y="155" text-anchor="middle" font-size="13" font-weight="800" fill="#fff" {FONT}>!</text>
+<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.28;.34;1" dur="9s" repeatCount="indefinite"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.4;.46;.9;1" dur="9s" repeatCount="indefinite"/>
+<rect x="28" y="138" width="330" height="56" rx="14" fill="#101a30" stroke="#3ddc97"/>
+<text x="44" y="162" font-size="14" font-weight="700" fill="#3ddc97" {FONT}>Guardian</text>
+<text x="44" y="183" font-size="13" fill="{INK}" {FONT}>Accident ahead. Switching to a clear road, +1 min.</text></g>
+<g><circle r="9" fill="#fff" stroke="{ACCENT}" stroke-width="4"/>
+<animateMotion dur="9s" repeatCount="indefinite" keyPoints="0;.5;.5;1" keyTimes="0;.42;.46;1" calcMode="linear" path="{route}"/></g>
+{ch}
+<text x="972" y="364" text-anchor="end" font-size="12" fill="{MUTED}" {FONT}>React · TypeScript · MapLibre · FastAPI</text></g></svg>'''
+
 # ---------------------------------------------------------------- skills chips (only tools used in the repos)
 def skills():
-    groups = [("Languages", ["Python", "TypeScript", "JavaScript"]), ("Web", ["React", "Vite", "Supabase", "Vercel"]),
-              ("Data & ML", ["PostgreSQL", "SQLite", "scikit-learn", "YOLOv8", "ResNet-18", "OpenCV"]), ("Delivery", ["Git", "GitHub Actions", "FFmpeg"])]
+    groups = [("Languages", ["Python", "TypeScript", "JavaScript"]),
+              ("Web", ["React", "Vite", "Tailwind CSS", "FastAPI", "Supabase", "Vercel", "Render", "GitHub Pages"]),
+              ("Maps and voice", ["MapLibre GL", "OSRM routing", "Overture Maps", "DuckDB", "TomTom Traffic", "Web Speech API"]),
+              ("Data & ML", ["PostgreSQL", "SQLite", "scikit-learn", "YOLOv8", "ResNet-18", "OpenCV", "Gemini Vision"]),
+              ("Delivery", ["Git", "GitHub Actions", "Playwright", "FFmpeg"])]
     y, out, n = 36, "", 0
     for g, items in groups:
         out += f'<text x="24" y="{y}" font-size="14" font-weight="700" fill="{MUTED}" letter-spacing="1.5" {FONT}>{esc(g.upper())}</text>'
@@ -166,6 +202,7 @@ if __name__ == "__main__":
     rows = collect()
     (OUT / "banner.svg").write_text(banner(), encoding="utf8")
     (OUT / "stats.svg").write_text(stats(rows), encoding="utf8")
+    (OUT / "featured-gemini-maps.svg").write_text(featured(), encoding="utf8")
     (OUT / "skills.svg").write_text(skills(), encoding="utf8")
     for i, r in enumerate(rows):
         (OUT / f"card-{i+1}.svg").write_text(card(i, r), encoding="utf8")

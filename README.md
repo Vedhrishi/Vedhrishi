@@ -25,6 +25,12 @@ I turn problems into working, deployed data projects: I define the requirements,
 </picture>
 </p>
 
+## Featured project
+
+<p align="center"><a href="https://vedhrishi.github.io/gemini-maps/"><img src="assets/featured-gemini-maps.svg" alt="Gemini Maps: a hazard appears on the route and the Guardian switches to a safer road" width="100%"></a></p>
+
+<p align="center"><a href="https://vedhrishi.github.io/gemini-maps/">Open the live app</a> · <a href="https://github.com/Vedhrishi/gemini-maps">Code</a></p>
+
 ## Projects
 
 Use the links under each card, or open **Project details** below for the full story of each one.
@@ -128,7 +134,7 @@ Use the links under each card, or open **Project details** below for the full st
 
 ## Tools used
 
-<p align="center"><img src="assets/skills.svg" alt="Tools used: Python, TypeScript, JavaScript, React, Vite, Supabase, Vercel, PostgreSQL, SQLite, scikit-learn, YOLOv8, ResNet-18, OpenCV, Git, GitHub Actions, FFmpeg" width="100%"></p>
+<p align="center"><img src="assets/skills.svg" alt="Tools used: Python, TypeScript, JavaScript, React, Vite, Tailwind CSS, FastAPI, Supabase, Vercel, Render, MapLibre GL, OSRM, Overture Maps, DuckDB, TomTom Traffic, Web Speech API, PostgreSQL, SQLite, scikit-learn, YOLOv8, ResNet-18, OpenCV, Gemini Vision, Git, GitHub Actions, Playwright, FFmpeg" width="100%"></p>
 
 ## Certifications
 
