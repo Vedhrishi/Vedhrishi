@@ -16,9 +16,6 @@ REPOS = [
     ("RISHI-INDIAN-STOCKS-EXPLAINED", "RISHI | Indian Stocks Explained",
      "Financial-literacy video series for first-time Indian investors, with a live website that gathers every episode.",
      "https://rishi-indian-stocks-explained.vercel.app"),
-    ("RISHI-AUTOMATION", "RISHI Automation",
-     "Scheduling, caption and metadata pipeline for the series, with a health check that compares several data sources.",
-     None),
     ("INTELLITRAP", "IntelliTrap",
      "Secure cloud storage with a RandomForest risk-scoring layer that flags suspicious sessions for an admin.",
      "https://intellitrap-batch-3.vercel.app"),
@@ -27,9 +24,6 @@ REPOS = [
      "https://plastic-decoder-project.vercel.app"),
     ("BIO-LOCK", "BioLock SSD",
      "Face-recognition lock for external drives with multi-step liveness checks, built with OpenCV and Python.",
-     None),
-    ("SIH-CODE_MAVERICKS", "SIH Code Mavericks",
-     "Multilingual admission assistant built for the Smart India Hackathon with React and TypeScript.",
      None),
     ("bschool-atlas", "B-School Atlas",
      "Compare MBA destinations, Indian B-school cut-offs by exam and payback, with sidebar navigation and site-wide search.",
@@ -72,7 +66,7 @@ def top_langs(langs, n=3):
 
 # ---------------------------------------------------------------- animated banner (static file, no data)
 def banner():
-    roles = ["Final-year B.Tech CSE", "Data &amp; analytics internship seeker", "Pipelines · ML scoring · computer vision", "8 projects, all documented"]
+    roles = ["Final-year B.Tech CSE", "Data &amp; analytics internship seeker", "Pipelines · ML scoring · computer vision", "6 projects, all documented"]
     spans = "".join(
         f'<text x="500" y="168" text-anchor="middle" fill="{INK}" font-size="26" {FONT} opacity="0">{r}'
         f'<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.22;0.28;1" dur="16s" begin="{i*4}s" repeatCount="indefinite"/></text>'

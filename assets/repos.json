@@ -14,7 +14,16 @@
   "commits": 6,
   "pushed": "2026-10-27",
   "size": 92833,
-  "topics": []
+  "topics": [
+   "fastapi",
+   "hackathon",
+   "maplibre",
+   "maps",
+   "navigation",
+   "react",
+   "road-safety",
+   "voice-assistant"
+  ]
  },
  {
   "repo": "RISHI-INDIAN-STOCKS-EXPLAINED",
@@ -43,26 +52,6 @@
    "python",
    "supabase",
    "vercel"
-  ]
- },
- {
-  "repo": "RISHI-AUTOMATION",
-  "title": "RISHI Automation",
-  "blurb": "Scheduling, caption and metadata pipeline for the series, with a health check that compares several data sources.",
-  "live": null,
-  "langs": {
-   "Python": 120134,
-   "PowerShell": 3503,
-   "Batchfile": 97
-  },
-  "commits": 4,
-  "pushed": "2026-10-21",
-  "size": 356,
-  "topics": [
-   "automation",
-   "content-pipeline",
-   "python",
-   "youtube-api"
   ]
  },
  {
@@ -130,28 +119,6 @@
    "opencv",
    "python",
    "usb-security"
-  ]
- },
- {
-  "repo": "SIH-CODE_MAVERICKS",
-  "title": "SIH Code Mavericks",
-  "blurb": "Multilingual admission assistant built for the Smart India Hackathon with React and TypeScript.",
-  "live": null,
-  "langs": {
-   "TypeScript": 129856,
-   "JavaScript": 990,
-   "HTML": 387,
-   "CSS": 59
-  },
-  "commits": 3,
-  "pushed": "2026-10-21",
-  "size": 73,
-  "topics": [
-   "react",
-   "smart-india-hackathon",
-   "tailwindcss",
-   "typescript",
-   "vite"
   ]
  },
  {

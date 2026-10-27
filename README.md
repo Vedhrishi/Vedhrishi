@@ -43,12 +43,8 @@ Five projects running in production. Click a card to open it.
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top"><img src="assets/card-3.svg" alt="RISHI Automation" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/RISHI-AUTOMATION">Code</a></td>
-<td width="50%" valign="top"><img src="assets/card-6.svg" alt="BioLock SSD" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/BIO-LOCK">Code</a></td>
-</tr>
-<tr>
-<td valign="top"><img src="assets/card-7.svg" alt="SIH Code Mavericks" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/SIH-CODE_MAVERICKS">Code</a></td>
-<td></td>
+<td width="50%" valign="top"><img src="assets/card-5.svg" alt="BioLock SSD" width="100%"><br>🔗 <a href="https://github.com/Vedhrishi/BIO-LOCK">Code</a></td>
+<td width="50%"></td>
 </tr>
 </table>
 
@@ -73,15 +69,6 @@ Five projects running in production. Click a card to open it.
 - **Data and tech:** episode metadata and schedules in Supabase (Postgres); static front end on Vercel; strict content-security policy and database row-level security.
 - **Rules I set:** education only, no stock tips, no return promises, clear disclaimers.
 - [Live site](https://rishi-indian-stocks-explained.vercel.app) · [Code](https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED)
-</details>
-
-<details>
-<summary><b>RISHI Automation</b>: the publishing pipeline behind the series</summary>
-
-- **Problem:** posting to three platforms on a schedule by hand does not scale.
-- **What it does:** schedules uploads, generates captions and metadata, tracks status in SQLite, and runs a health check that compares several data sources and flags mismatches.
-- **Tech:** Python, SQLite, YouTube, Facebook and Instagram APIs, Windows scheduled tasks.
-- [Code](https://github.com/Vedhrishi/RISHI-AUTOMATION)
 </details>
 
 <details>
@@ -110,15 +97,6 @@ Five projects running in production. Click a card to open it.
 - **What it does:** unlocks only after presence, blink and head-turn checks plus a face match, and refuses to run from an internal drive. The vault key is derived with PBKDF2 and Fernet. Includes 25 automated tests in CI.
 - **Tech:** Python, OpenCV, Tkinter, Windows desktop.
 - [Code](https://github.com/Vedhrishi/BIO-LOCK)
-</details>
-
-<details>
-<summary><b>SIH Code Mavericks</b>: multilingual admission assistant</summary>
-
-- **Problem:** college admission steps are confusing, especially across languages.
-- **What it does:** guides a student through language, quota, documents and a chatbot questionnaire to a final summary. Built for the Smart India Hackathon.
-- **Tech:** React, TypeScript, Vite, Tailwind CSS.
-- [Code](https://github.com/Vedhrishi/SIH-CODE_MAVERICKS)
 </details>
 
 <details>
