@@ -10,9 +10,9 @@ OUT.mkdir(exist_ok=True)
 
 # Hand-written, truthful descriptions (what each project is), merged with live numbers from the API.
 REPOS = [
-    ("gemini-maps", "Gemini Maps",
+    ("meta-maps", "Meta Maps",
      "Crowdsourced road-hazard navigation with a Guardian rerouting agent, live traffic and hands-free voice control.",
-     "https://vedhrishi.github.io/gemini-maps/"),
+     "https://vedhrishi.github.io/meta-maps/"),
     ("RISHI-INDIAN-STOCKS-EXPLAINED", "RISHI | Indian Stocks Explained",
      "Financial-literacy video series for first-time Indian investors, with a live website that gathers every episode.",
      "https://rishi-indian-stocks-explained.vercel.app"),
@@ -144,17 +144,17 @@ def featured():
     route = "M70 292 C 190 292 210 210 330 205 S 520 215 600 150 S 790 120 930 92"
     alt = "M330 205 C 380 285 520 300 640 250 S 840 170 930 92"
     ch, cx = "", 28
-    for t in ["Hazard-aware routes", "Guardian reroute", "Hey Gemini voice control", "4.9M places offline in India"]:
+    for t in ["Hazard-aware routes", "Guardian reroute", "Hey Meta voice control", "4.9M places offline in India"]:
         w = len(t) * 8.2 + 30
         ch += f'<g transform="translate({cx:.0f},318)"><rect width="{w:.0f}" height="30" rx="15" fill="#1a2540" stroke="#2a3b66"/><text x="15" y="20" font-size="13" fill="{INK}" {FONT}>{t}</text></g>'
         cx += w + 10
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" role="img" aria-label="Gemini Maps: a hazard on the route, the Guardian switches to a safer road">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" role="img" aria-label="Meta Maps: a hazard on the route, the Guardian switches to a safer road">
 <defs><linearGradient id="fg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#13294f"/></linearGradient>
 <clipPath id="fc"><rect width="1000" height="380" rx="22"/></clipPath>
 <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1d2c4d" stroke-width="1"/></pattern></defs>
 <g clip-path="url(#fc)"><rect width="1000" height="380" fill="url(#fg)"/><rect width="1000" height="380" fill="url(#grid)" opacity=".7"/>
 <text x="28" y="52" font-size="13" font-weight="700" fill="{ACCENT}" letter-spacing="2" {FONT}>FEATURED PROJECT</text>
-<text x="28" y="96" font-size="44" font-weight="700" fill="#fff" letter-spacing="-1" {FONT}>Gemini Maps</text>
+<text x="28" y="96" font-size="44" font-weight="700" fill="#fff" letter-spacing="-1" {FONT}>Meta Maps</text>
 <text x="28" y="126" font-size="17" fill="{MUTED}" {FONT}>Navigation that warns you about the road, not just the route.</text>
 <path id="main" d="{route}" fill="none" stroke="#5b6b8c" stroke-width="7" stroke-linecap="round" opacity=".55"/>
 <path d="{alt}" fill="none" stroke="#3ddc97" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 9" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.42;.5;.92;1" dur="9s" repeatCount="indefinite"/></path>
@@ -254,7 +254,7 @@ if __name__ == "__main__":
     rows = collect()
     (OUT / "banner.svg").write_text(banner(), encoding="utf8")
     (OUT / "stats.svg").write_text(stats(rows), encoding="utf8")
-    (OUT / "featured-gemini-maps.svg").write_text(featured(), encoding="utf8")
+    (OUT / "featured-meta-maps.svg").write_text(featured(), encoding="utf8")
     for j, spec in enumerate(LIVE):
         (OUT / f"live-{spec[0]}.svg").write_text(live_card(j, *spec), encoding="utf8")
     (OUT / "skills.svg").write_text(skills(), encoding="utf8")

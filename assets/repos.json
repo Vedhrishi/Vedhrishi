@@ -1,19 +1,19 @@
 [
  {
-  "repo": "gemini-maps",
-  "title": "Gemini Maps",
+  "repo": "meta-maps",
+  "title": "Meta Maps",
   "blurb": "Crowdsourced road-hazard navigation with a Guardian rerouting agent, live traffic and hands-free voice control.",
-  "live": "https://vedhrishi.github.io/gemini-maps/",
+  "live": "https://vedhrishi.github.io/meta-maps/",
   "langs": {
-   "TypeScript": 311608,
-   "Python": 55832,
+   "TypeScript": 341013,
+   "Python": 73445,
    "CSS": 7270,
-   "HTML": 3680,
+   "HTML": 5817,
    "JavaScript": 2039
   },
-  "commits": 14,
-  "pushed": "2026-10-27",
-  "size": 264532,
+  "commits": 26,
+  "pushed": "2026-10-28",
+  "size": 265802,
   "topics": [
    "fastapi",
    "hackathon",

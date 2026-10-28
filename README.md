@@ -29,7 +29,7 @@ I turn problems into working, deployed data projects: I define the requirements,
 
 Five projects running in production. Click a card to open it.
 
-<p align="center"><a href="https://vedhrishi.github.io/gemini-maps/"><img src="assets/featured-gemini-maps.svg" alt="Gemini Maps, live: a hazard appears on the route and the Guardian switches to a safer road" width="100%"></a><br><a href="https://vedhrishi.github.io/gemini-maps/">Open the app</a> · <a href="https://github.com/Vedhrishi/gemini-maps">Code</a></p>
+<p align="center"><a href="https://vedhrishi.github.io/meta-maps/"><img src="assets/featured-meta-maps.svg" alt="Meta Maps, live: a hazard appears on the route and the Guardian switches to a safer road" width="100%"></a><br><a href="https://vedhrishi.github.io/meta-maps/">Open the app</a> · <a href="https://github.com/Vedhrishi/meta-maps">Code</a></p>
 
 <p align="center"><a href="https://rishi-indian-stocks-explained.vercel.app"><img src="assets/live-stocks.svg" alt="RISHI | Indian Stocks Explained, live project" width="100%"></a><br><a href="https://rishi-indian-stocks-explained.vercel.app">Open the site</a> · <a href="https://github.com/Vedhrishi/RISHI-INDIAN-STOCKS-EXPLAINED">Code</a></p>
 
@@ -51,14 +51,14 @@ Five projects running in production. Click a card to open it.
 ### Project details
 
 <details open>
-<summary><b>Gemini Maps</b>: navigation that warns you about the road</summary>
+<summary><b>Meta Maps</b>: navigation that warns you about the road</summary>
 
 - **Problem:** maps tell you the fastest route but not about the pothole, flood or accident on it.
 - **What it does:** drivers report hazards by photo or voice and nearby users see them within seconds. A Guardian agent compares safer alternatives and re-routes only when one is clearly better. Spoken traffic summary for every trip, "nearest petrol pump" style search, and hands-free voice control.
 - **Data:** about 4.9 million India places and named buildings from Overture Maps, cached on the device; live traffic from TomTom; routing from OSRM. Hazards come only from real user reports.
 - **Tech:** React, TypeScript, Vite, MapLibre, FastAPI, Render, GitHub Pages. 12 backend tests.
 - Built for the Meta Global AI Developer Hackathon, 2026.
-- [Live app](https://vedhrishi.github.io/gemini-maps/) · [Code](https://github.com/Vedhrishi/gemini-maps)
+- [Live app](https://vedhrishi.github.io/meta-maps/) · [Code](https://github.com/Vedhrishi/meta-maps)
 </details>
 
 <details>
