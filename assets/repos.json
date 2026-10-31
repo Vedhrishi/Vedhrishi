@@ -5,16 +5,16 @@
   "blurb": "Crowdsourced road-hazard navigation with a Guardian rerouting agent, live traffic and hands-free voice control.",
   "live": "https://vedhrishi.github.io/meta-maps/",
   "langs": {
-   "TypeScript": 444800,
-   "Python": 89098,
+   "TypeScript": 447205,
+   "Python": 93172,
    "Java": 20406,
-   "HTML": 7986,
+   "HTML": 8072,
    "CSS": 7270,
-   "JavaScript": 2039
+   "JavaScript": 2040
   },
-  "commits": 40,
-  "pushed": "2026-10-29",
-  "size": 281119,
+  "commits": 44,
+  "pushed": "2026-10-30",
+  "size": 281558,
   "topics": [
    "fastapi",
    "hackathon",
@@ -40,9 +40,9 @@
    "PowerShell": 947,
    "Batchfile": 558
   },
-  "commits": 39,
-  "pushed": "2026-10-29",
-  "size": 77401,
+  "commits": 41,
+  "pushed": "2026-10-31",
+  "size": 77403,
   "topics": [
    "animation",
    "education",
