@@ -32,27 +32,32 @@
   "blurb": "Financial-literacy video series for first-time Indian investors, with a live website that gathers every episode.",
   "live": "https://rishi-indian-stocks-explained.vercel.app",
   "langs": {
-   "Python": 47836,
-   "JavaScript": 41371,
+   "Python": 82139,
+   "JavaScript": 43579,
    "HTML": 37159,
    "CSS": 35578,
    "PLpgSQL": 1713,
    "PowerShell": 947,
    "Batchfile": 558
   },
-  "commits": 42,
-  "pushed": "2026-10-31",
-  "size": 77414,
+  "commits": 46,
+  "pushed": "2026-11-02",
+  "size": 77460,
   "topics": [
    "animation",
+   "claude-code",
    "education",
+   "elevenlabs",
    "ffmpeg",
    "financial-literacy",
    "indian-stock-market",
+   "instagram-reels",
    "javascript",
+   "moviepy",
    "python",
    "supabase",
-   "vercel"
+   "vercel",
+   "youtube-automation"
   ]
  },
  {
