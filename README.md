@@ -1,18 +1,18 @@
-<p align="center"><img src="assets/banner.svg" alt="Pasupuleti Vedh Rishi, final-year B.Tech CSE, data and analytics internship seeker" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Pasupuleti Vedh Rishi, final-year B.Tech CSE, finance and data internship seeker" width="100%"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OPEN%20TO-DATA%20%26%20ANALYTICS%20INTERNSHIPS-2ea44f?style=for-the-badge" alt="Open to data and analytics internships"><br>
-  <a href="https://www.linkedin.com/in/vedhrishi-pasupuleti/"><img src="https://img.shields.io/badge/LinkedIn-Vedhrishi%20Pasupuleti-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:vedhrishi54@gmail.com"><img src="https://img.shields.io/badge/Email-vedhrishi54%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Hyderabad-India-555?style=for-the-badge" alt="Hyderabad, India">
+<img src="https://img.shields.io/badge/OPEN%20TO-FINANCE%20%26%20DATA%20INTERNSHIPS-2ea44f?style=for-the-badge" alt="Open to finance and data internships"><br>
+<a href="https://www.linkedin.com/in/vedhrishi-pasupuleti/"><img src="https://img.shields.io/badge/LinkedIn-Vedhrishi%20Pasupuleti-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:vedhrishi54@gmail.com"><img src="https://img.shields.io/badge/Email-vedhrishi54%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<img src="https://img.shields.io/badge/Hyderabad-India-555?style=for-the-badge" alt="Hyderabad, India">
 </p>
 
 ## About me
 
 **Final-year B.Tech student, Computer Science and Engineering, CMR Technical Campus, Hyderabad.**
-Looking for a **data and analytics internship**.
+Looking for a remote **investment banking, financial analyst or quant internship** — also open to data and analytics roles.
 
-I turn problems into working, deployed data projects: I define the requirements, review and test the results, and ship with live demos and documentation. I want an internship where I can work on real business data and learn from an analytics team.
+I turn problems into working, deployed data and finance projects: I define the requirements, review and test the results, and ship with live demos and documentation. Day to day that means global markets knowledge, deal research, pitch deck preparation and outreach, backed by a fast-learning, high-ownership build habit. I want an internship where I can work on real deals or business data and learn from an analyst team.
 
 ## At a glance
 
@@ -108,6 +108,10 @@ Five projects running in production. Click a card to open it.
 - [Live site](https://vedhrishi.github.io/bschool-atlas/) · [Code](https://github.com/Vedhrishi/bschool-atlas)
 </details>
 
+## Finance skills
+
+Global markets knowledge · Deal research · Pitch deck preparation · Outreach · Financial modeling (NPV, IRR, payback) · Equity and crypto markets, followed daily
+
 ## Tools used
 
 <p align="center"><img src="assets/skills.svg" alt="Tools used: Python, TypeScript, JavaScript, React, Vite, Tailwind CSS, FastAPI, Supabase, Vercel, Render, MapLibre GL, OSRM, Overture Maps, DuckDB, TomTom Traffic, Web Speech API, PostgreSQL, SQLite, scikit-learn, YOLOv8, ResNet-18, OpenCV, Gemini Vision, Git, GitHub Actions, Playwright, FFmpeg" width="100%"></p>
@@ -124,6 +128,6 @@ Five projects running in production. Click a card to open it.
 
 ## Contact
 
-Open to data and analytics internships. Email [vedhrishi54@gmail.com](mailto:vedhrishi54@gmail.com) or message me on [LinkedIn](https://www.linkedin.com/in/vedhrishi-pasupuleti/).
+Open to remote finance internships (investment banking, financial analyst, quant) and data/analytics roles. Email [vedhrishi54@gmail.com](mailto:vedhrishi54@gmail.com) or message me on [LinkedIn](https://www.linkedin.com/in/vedhrishi-pasupuleti/).
 
 <sub>Stats and cards above refresh automatically every day from my GitHub data.</sub>
