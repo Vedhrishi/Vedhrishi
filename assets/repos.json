@@ -112,11 +112,11 @@
   "blurb": "Face-recognition lock for external drives with multi-step liveness checks, built with OpenCV and Python.",
   "live": null,
   "langs": {
-   "Python": 456359
+   "Python": 609798
   },
-  "commits": 4,
-  "pushed": "2026-11-12",
-  "size": 296,
+  "commits": 5,
+  "pushed": "2026-11-15",
+  "size": 76222,
   "topics": [
    "cybersecurity",
    "encryption",
